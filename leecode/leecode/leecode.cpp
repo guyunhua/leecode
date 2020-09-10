@@ -2,9 +2,17 @@
 //
 
 #include <iostream>
+#include "leecode40.h"
+#include "leecode5.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    Solution40 s;
+    std::vector<int> vec{ 2,5,2,1,2};
+    s.combinationSum2(vec, 5);
+
+    Solution5 s5;
+    s5.longestPalindrome("adsdfasdf");
+    //std::cout << "Hello World!\n";
 }
 
