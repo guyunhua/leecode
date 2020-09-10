@@ -144,6 +144,7 @@
   <ItemGroup>
     <ClInclude Include="leecode40.h" />
     <ClInclude Include="leecode5.h" />
+    <ClInclude Include="leecode6.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

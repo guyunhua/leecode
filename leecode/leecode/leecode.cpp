@@ -4,6 +4,7 @@
 #include <iostream>
 #include "leecode40.h"
 #include "leecode5.h"
+#include "leecode6.h"
 
 int main()
 {
@@ -14,5 +15,8 @@ int main()
     Solution5 s5;
     s5.longestPalindrome("adsdfasdf");
     //std::cout << "Hello World!\n";
+
+    Solution6 s6;
+    s6.convert("PAYPALISHIRING", 3);
 }
 
