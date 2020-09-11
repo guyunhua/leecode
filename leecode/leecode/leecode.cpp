@@ -5,6 +5,7 @@
 #include "leecode40.h"
 #include "leecode5.h"
 #include "leecode6.h"
+#include "leecode216.h"
 
 int main()
 {
@@ -18,5 +19,8 @@ int main()
 
     Solution6 s6;
     s6.convert("PAYPALISHIRING", 3);
+
+    Solution216 s216;
+    s216.combinationSum3(3, 15);
 }
 
