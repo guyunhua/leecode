@@ -6,6 +6,8 @@
 #include "leecode5.h"
 #include "leecode6.h"
 #include "leecode216.h"
+#include "leecode7.h"
+#include "leecode8.h"
 
 int main()
 {
@@ -22,5 +24,11 @@ int main()
 
     Solution216 s216;
     s216.combinationSum3(3, 15);
+
+    Solution7 s7;
+    s7.reverse(-42);
+
+    Solution8 s8;
+    s8.myAtoi("- 234");
 }
 
