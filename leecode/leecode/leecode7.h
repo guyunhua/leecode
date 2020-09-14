@@ -1,4 +1,5 @@
 #pragma once
+//Êý×Ö·´×ª
 class Solution7 {
 public:
     int reverse(int x) {

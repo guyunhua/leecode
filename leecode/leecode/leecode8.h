@@ -1,6 +1,7 @@
 #pragma once
 #include<string>
 using namespace std;
+//×Ö·û´®×ªÕûÊı
 class Solution8 {
 public:
     int myAtoi(string str) {
