@@ -41,5 +41,17 @@
     <ClInclude Include="leecode94.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="minimaxheep.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="leecode9.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="leecode10.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="leecode37.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

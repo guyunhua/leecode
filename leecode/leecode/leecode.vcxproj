@@ -88,6 +88,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -142,13 +143,17 @@
     <ClCompile Include="leecode.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="leecode10.h" />
     <ClInclude Include="leecode216.h" />
+    <ClInclude Include="leecode37.h" />
     <ClInclude Include="leecode40.h" />
     <ClInclude Include="leecode5.h" />
     <ClInclude Include="leecode6.h" />
     <ClInclude Include="leecode7.h" />
     <ClInclude Include="leecode8.h" />
+    <ClInclude Include="leecode9.h" />
     <ClInclude Include="leecode94.h" />
+    <ClInclude Include="minimaxheep.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

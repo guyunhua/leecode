@@ -8,6 +8,9 @@
 #include "leecode216.h"
 #include "leecode7.h"
 #include "leecode8.h"
+#include "leecode9.h"
+#include "leecode10.h"
+#include "leecode37.h"
 
 int main()
 {
@@ -30,5 +33,28 @@ int main()
 
     Solution8 s8;
     s8.myAtoi("- 234");
+
+    Solution9 s9;
+    s9.isPalindrome(121);
+
+    Solution10 s10;
+    bool ismatch = s10.isMatch("aaa", "a*a");
+    cout <<( ismatch ? "True" : "False") << endl;
+    
+    Solution37 s37;
+    vector<vector<char>> aaaa{
+        { '5', '3', '.', '.', '7', '.', '.', '.', '.' },
+        { '5', '3', '.', '.', '7', '.', '.', '.', '.' },
+        { '6', '.', '.', '1', '9', '5', '.', '.', '.' },
+        { '.', '9', '8', '.', '.', '.', '.', '6', '.' },
+        { '8', '.', '.', '.', '6', '.', '.', '.', '3' },
+        { '4', '.', '.', '8', '.', '3', '.', '.', '1' },
+        { '7', '.', '.', '.', '2', '.', '.', '.', '6' },
+        { '.', '6', '.', '.', '.', '.', '2', '8', '.' },
+        { '.', '.', '.', '4', '1', '9', '.', '.', '5' },
+        { '.', '.', '.', '.', '8', '.', '.', '7', '9' } };
+        
+    s37.solveSudoku(aaaa);
+
 }
 
