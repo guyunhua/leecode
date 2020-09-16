@@ -4,7 +4,7 @@ using namespace std;
 
 class Solution37 {
 private:
-    bool line[9][9];
+    bool line[9][9];//可以换成二进制位
     bool column[9][9];
     bool block[3][3][9];
     bool valid;
