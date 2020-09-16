@@ -11,6 +11,10 @@
 #include "leecode9.h"
 #include "leecode10.h"
 #include "leecode37.h"
+#include "leecode11.h"
+#include "leecode12.h"
+
+#include<memory>
 
 int main()
 {
@@ -56,5 +60,14 @@ int main()
         
     s37.solveSudoku(aaaa);
 
+    Solution11 s11;
+    vector<int > a{ 1,8,6,2,5,4,8,3,7 };
+    s11.maxArea(a);
+
+    Solution12 s12;
+    s12.intToRoman(1994);
+    
+
+    return 0;
 }
 

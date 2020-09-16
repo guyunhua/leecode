@@ -144,7 +144,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leecode10.h" />
+    <ClInclude Include="leecode11.h" />
+    <ClInclude Include="leecode12.h" />
     <ClInclude Include="leecode216.h" />
+    <ClInclude Include="leecode226.h" />
     <ClInclude Include="leecode37.h" />
     <ClInclude Include="leecode40.h" />
     <ClInclude Include="leecode5.h" />

@@ -53,5 +53,14 @@
     <ClInclude Include="leecode37.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="leecode226.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="leecode11.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="leecode12.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -8,7 +8,7 @@ struct TreeNode {
 };
  
 //·´×ª¶þ²æÊ÷
-class Solution {
+class Solution226 {
 public:
     TreeNode* invertTree(TreeNode* root) {
         if (root == nullptr)
