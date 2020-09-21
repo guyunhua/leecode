@@ -13,6 +13,8 @@
 #include "leecode37.h"
 #include "leecode11.h"
 #include "leecode12.h"
+#include "leecode685.h"
+#include "leecode38.h"
 
 #include<memory>
 
@@ -66,6 +68,17 @@ int main()
 
     Solution12 s12;
     s12.intToRoman(1994);
+
+
+    Solution685 s685;
+    vector<vector<int>> v685{ {1, 2} ,{1, 3},{2, 3}};
+    s685.findRedundantDirectedConnection(v685);
+
+    Solution28 s28;
+    string stra("a");
+    string strb("b");
+    s28.strStr(stra,
+       strb);
     
 
     return 0;
