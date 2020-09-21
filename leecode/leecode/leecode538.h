@@ -19,7 +19,7 @@ public:
         sum += root->val;
         root->val = sum;
         
-        convertBST(root->right);
+        convertBST(root->left);
 
         return root;
     }
