@@ -7,7 +7,7 @@
       TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
   };
  
-class Solution {
+class Solution538 {
 public:
     int sum = 0;
     TreeNode* convertBST(TreeNode* root) {
