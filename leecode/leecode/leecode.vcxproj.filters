@@ -18,8 +18,11 @@
     <ClCompile Include="leecode.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="leecode968.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="leecode617.h">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="leecode968.h">
+      <Filter>头文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
