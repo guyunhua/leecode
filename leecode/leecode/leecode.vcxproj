@@ -150,6 +150,7 @@
     <ClInclude Include="leecode12.h" />
     <ClInclude Include="leecode13.h" />
     <ClInclude Include="leecode14.h" />
+    <ClInclude Include="leecode15.h" />
     <ClInclude Include="leecode216.h" />
     <ClInclude Include="leecode226.h" />
     <ClInclude Include="leecode37.h" />
@@ -161,6 +162,7 @@
     <ClInclude Include="leecode6.h" />
     <ClInclude Include="leecode685.h" />
     <ClInclude Include="leecode7.h" />
+    <ClInclude Include="leecode739.h" />
     <ClInclude Include="leecode8.h" />
     <ClInclude Include="leecode9.h" />
     <ClInclude Include="leecode94.h" />

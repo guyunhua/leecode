@@ -15,6 +15,8 @@
 #include "leecode12.h"
 #include "leecode685.h"
 #include "leecode28.h"
+#include "leecode15.h"
+#include"leecode739.h"
 
 #include<memory>
 
@@ -80,7 +82,13 @@ int main()
     s28.strStr(stra,
        strb);
     
+    Solution15 s15;
+    vector<int> v15{ -1,0,1,2,-1,-4 };
+    s15.threeSum(v15);
 
+    Solution739 s739;
+    vector<int> v739{ 73,74,75,71,69,72,76,73};
+    s739.dailyTemperatures(v739);
 
     return 0;
 }
