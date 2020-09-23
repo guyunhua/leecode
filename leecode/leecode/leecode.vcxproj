@@ -141,6 +141,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="leecode.cpp" />
+    <ClCompile Include="leecode968.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leecode10.h" />
